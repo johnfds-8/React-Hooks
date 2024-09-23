@@ -7,7 +7,7 @@ function Color() {
 
 
   const handleChange = () =>{
-    setColor ((prev) =>( prev === "Red" ? "Blue" : "Red"))
+    setColor ((prev) => ( prev === "Red" ? "Blue" : "Red"))
   }
   return (
     <div>
