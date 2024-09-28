@@ -14,6 +14,8 @@ import Condition from './components/condition/Condition';
 import Event from './components/Event/Event';
 import Key from './components/key/Key';
 import Form from './components/form/Form';
+import Search from './components/search/Search';
+import Theme from './components/theme/Theme';
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <Condition/> */}
       {/* <Event/> */}
       {/* <Key/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <Search/> */}
+      <Theme/>
     </div>
   );
 }
